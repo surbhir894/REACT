@@ -1,9 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from './Components/Header';
+import Layout from './Layout';
 
 function App() {
   return (
-    <h1>HELOO</h1>
+    <>
+    <Layout/>
+    </>
   );
 }
 

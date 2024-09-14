@@ -5,9 +5,127 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: white;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.navbar{
+  
+background: rgb(39,82,33);
+background: linear-gradient(0deg, rgba(39,82,33,1) 0%, rgba(126,232,17,1) 100%);
+}
+.navbar-nav li a{
+  font-weight: 400;
+  font-size: large;
+  color: white;
+ 
+}
+.admin{
+  border-radius: 20px;
+  background-color: green;
+  color: white;
+  padding: 5px;
+  border: 1px solid white;
+}
+
+.carousel-inner {
+  height: 500px; 
+}
+
+.carousel slide .carousel-item  img {
+  height: 100%;   
+  object-fit: cover; 
+}
+.product-header{
+  margin-top: 20px;
+}
+.product-form{
+margin: 20px 20px;
+border: 1px solid grey;
+padding: 20px;
+}
+.product-heading{
+  text-align: center;
+  background: gray;
+
+}
+.card-header{
+  
+  background: rgb(39,82,33);
+  background: linear-gradient(0deg, rgba(39,82,33,1) 0%, rgba(126,232,17,1) 100%);
+  background-color: grey;
+}
+.card{
+  margin: 20px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; 
+}
+
+body {
+  padding-top: 70px; 
+}
+
+.action-button button{
+  padding: 5px;
+margin-left: 20px;
+background-color: green;
+color: white;
+border: 1px solid grey;
+border-radius: 8px;
+}
+.create-new {
+  padding: 5px;
+margin-left: 80px;
+background-color: green;
+color: white;
+border: 1px solid grey;
+border-radius: 8px;
+}
+
+.navbar-nav .nav-link {
+  color: #000; /* Text color */
+}
+
+.navbar-nav .dropdown-menu {
+  background-color: #f8f9fa; /* Background color of dropdown */
+  border: none; /* Remove border */
+}
+
+.navbar-nav .dropdown-item {
+  color: #333; /* Text color of dropdown items */
+  transition: background-color 0.3s;
+}
+
+.navbar-nav .dropdown-item:hover {
+  background-color: #e9ecef; /* Hover color */
+}
+
+.form-control{
+  margin-bottom: 8px;
+  width: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
